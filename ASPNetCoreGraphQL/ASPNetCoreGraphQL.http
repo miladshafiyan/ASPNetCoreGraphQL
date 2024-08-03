@@ -1,0 +1,6 @@
+@ASPNetCoreGraphQL_HostAddress = http://localhost:5269
+
+GET {{ASPNetCoreGraphQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
