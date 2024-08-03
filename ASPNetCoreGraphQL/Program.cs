@@ -10,20 +10,12 @@ builder.Services
     .AddQueryType<Query>()
     .AddMutationType<Mutation>(); ;
 
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
-
-//app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
 
 app.UseRouting();
 
